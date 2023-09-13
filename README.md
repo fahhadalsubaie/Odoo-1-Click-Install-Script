@@ -14,10 +14,10 @@ Using a root user or a user in the sudo group:
 sudo nano odoo-install.sh
 ```
 
-Paste this file content inside it and then make the file executable by excuting the following command:
+Paste the `odoo-install.sh` file content inside it and then make the file executable by excuting the following command:
 
 ```
-# sudo chmod +x odoo-install.sh
+sudo chmod +x odoo-install.sh
 ```
 
 Execute the script to install Odoo:
