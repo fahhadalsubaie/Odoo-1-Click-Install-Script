@@ -20,6 +20,7 @@ Paste the `odoo-install.sh` file content inside it and then make the file execut
 sudo chmod +x odoo-install.sh
 ```
 
+Edit the configuration part of the script as per your needs then hit`ctrl+x` to save then `y` to confirm then hit `enter`
 Execute the script to install Odoo:
 
 ```
