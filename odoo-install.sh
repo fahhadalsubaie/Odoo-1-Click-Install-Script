@@ -5,6 +5,8 @@
 # Updated By: Fahhad Alsubaie - www.bargcloud.com
 ################################################################################
 
+####### CONFIGURATION PART########
+####### AS PER YOUR NEEDS #######
 OE_USER="odoo"
 OE_HOME="/$OE_USER"
 OE_HOME_EXT="/$OE_USER/${OE_USER}-server"
@@ -35,12 +37,16 @@ LONGPOLLING_PORT="8072"
 ENABLE_SSL="True"
 # Provide Email to register ssl certificate
 ADMIN_EMAIL="fahhad@bargcloud.com"
+
 ##
 ###  WKHTMLTOPDF download links
 ## === Ubuntu Trusty x64 & x32 === (for other distributions please replace these two links,
 ## in order to have correct version of wkhtmltopdf installed, for a danger note refer to
 ## https://github.com/odoo/odoo/wiki/Wkhtmltopdf ):
 ## https://www.odoo.com/documentation/16.0/administration/install.html
+
+
+##### DON"T TOUCH THE BELOW PART OR YOU'LL BREAK THE INSTALLATION ######
 
 # Check if the operating system is Ubuntu 22.04
 if [[ $(lsb_release -r -s) == "22.04" ]]; then
